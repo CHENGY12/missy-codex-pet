@@ -10,7 +10,21 @@ Missy is a custom animated calico-cat pet for the Codex desktop app. She is base
 
 [Install Missy directly in Codex](codex://pets/install?name=Missy&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCHENGY12%2Fmissy-codex-pet%2Fmain%2Fmissy%2Fspritesheet.webp&description=Missy%20the%20calico%20cat&spriteVersionNumber=2)
 
+Install from this GitHub repository with `npx`:
+
+```sh
+npx --yes github:CHENGY12/missy-codex-pet add missy
+```
+
+The public `codex-pets` catalog command will be:
+
+```sh
+npx codex-pets add missy
+```
+
 The direct-install link requires a Codex version with the custom pet install flow enabled. The ZIP also includes a local macOS installer and bilingual instructions. No API key is required.
+
+The installer refuses to overwrite a different existing `missy` folder. Pass `--force` to preserve the existing folder as a timestamped backup and install the published version.
 
 ## Install from the ZIP
 
@@ -46,6 +60,9 @@ See [`qa/`](qa/) for the retained reports, contact sheets, direction sheets, fra
 
 ```text
 missy/     Install-ready pet.json and spritesheet.webp
+bin/       npx command entry point
+src/       Safe, atomic installer and bundled pet catalog
+test/      Node.js installer and CLI tests
 source/    Public generated identity artwork and project specification
 qa/        Validation reports and visual QA artifacts
 dist/      Shareable ZIP installer
