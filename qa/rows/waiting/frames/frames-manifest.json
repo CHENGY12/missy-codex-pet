@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#0000FF",
+    "rgb": [
+      0,
+      0,
+      255
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "waiting",
+      "frames": [
+        "./qa/rows/waiting/frames/waiting/00.png",
+        "./qa/rows/waiting/frames/waiting/01.png",
+        "./qa/rows/waiting/frames/waiting/02.png",
+        "./qa/rows/waiting/frames/waiting/03.png",
+        "./qa/rows/waiting/frames/waiting/04.png",
+        "./qa/rows/waiting/frames/waiting/05.png"
+      ],
+      "method": "components"
+    }
+  ]
+}

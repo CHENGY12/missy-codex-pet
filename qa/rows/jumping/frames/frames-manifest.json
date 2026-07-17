@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "chroma_key": {
+    "hex": "#0000FF",
+    "rgb": [
+      0,
+      0,
+      255
+    ],
+    "threshold": 96.0
+  },
+  "rows": [
+    {
+      "state": "jumping",
+      "frames": [
+        "./qa/rows/jumping/frames/jumping/00.png",
+        "./qa/rows/jumping/frames/jumping/01.png",
+        "./qa/rows/jumping/frames/jumping/02.png",
+        "./qa/rows/jumping/frames/jumping/03.png",
+        "./qa/rows/jumping/frames/jumping/04.png"
+      ],
+      "method": "components"
+    }
+  ]
+}

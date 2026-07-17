@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"medium: subtle rightward muzzle versus clear left profile"},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"high: muzzles and eyes point in opposite horizontal directions"},
+    {"pair":"horizontal-3","A":"screen-left","B":"screen-right","reason":"high: clear left-facing and right-facing head profiles"},
+    {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"high: A turns left while B turns right"},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"high: noses and visible eye profiles clearly oppose"},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"high: A muzzle extends left and B extends right"},
+    {"pair":"horizontal-7","A":"screen-right","B":"screen-left","reason":"high: downward pitch retains clear right and left turns"},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"high: A bows toward ground while B lifts its face"},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"high: A raises its chin and B lowers its muzzle"},
+    {"pair":"vertical-3","A":"up","B":"down","reason":"high: A nose is elevated; B pitches downward"},
+    {"pair":"vertical-4","A":"up","B":"down","reason":"medium: A muzzle is slightly higher than B"},
+    {"pair":"vertical-5","A":"up","B":"down","reason":"high: A looks steeply upward and B clearly bows down"},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"medium: A carries the muzzle higher; B pitches lower"},
+    {"pair":"vertical-7","A":"up","B":"down","reason":"medium: A tilts upward while B gaze is slightly lowered"}
+  ]
+}

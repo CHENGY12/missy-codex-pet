@@ -1,0 +1,33 @@
+{
+  "id": "missy",
+  "displayName": "Missy",
+  "description": "Missy is a curious, round-bodied calico cat with mostly white fur, large upright ears, yellow-green eyes, a pink nose, an asymmetric black-and-orange crown, one warm orange flank patch, and a thick black-and-orange tail.",
+  "style": "polished pixel-art Codex pet",
+  "spriteVersionNumber": 2,
+  "atlas": {
+    "columns": 8,
+    "rows": 11,
+    "cellWidth": 192,
+    "cellHeight": 208,
+    "width": 1536,
+    "height": 2288
+  },
+  "standardRows": [
+    {"row": 0, "state": "idle", "frames": 6},
+    {"row": 1, "state": "running-right", "frames": 8},
+    {"row": 2, "state": "running-left", "frames": 8},
+    {"row": 3, "state": "waving", "frames": 4},
+    {"row": 4, "state": "jumping", "frames": 5},
+    {"row": 5, "state": "failed", "frames": 8},
+    {"row": 6, "state": "waiting", "frames": 6},
+    {"row": 7, "state": "running", "frames": 6},
+    {"row": 8, "state": "review", "frames": 6}
+  ],
+  "lookRows": [
+    {"row": 9, "directions": ["000", "022.5", "045", "067.5", "090", "112.5", "135", "157.5"]},
+    {"row": 10, "directions": ["180", "202.5", "225", "247.5", "270", "292.5", "315", "337.5"]}
+  ],
+  "chromaKey": "#0000FF",
+  "generation": "Built with the Codex hatch-pet and imagegen workflows without an API key.",
+  "privacy": "Original reference photographs are not included in the public repository."
+}

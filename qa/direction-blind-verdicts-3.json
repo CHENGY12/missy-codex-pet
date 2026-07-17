@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"ambiguous","B":"screen-left","reason":"medium: A is nearly frontal; B points left"},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"high: muzzles and head profiles clearly oppose"},
+    {"pair":"horizontal-3","A":"screen-left","B":"screen-right","reason":"high: clear left-facing and right-facing profiles"},
+    {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"high: head rotation and muzzle placement are clear"},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"high: A nose projects left and B projects right"},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"high: both head profiles are clear"},
+    {"pair":"horizontal-7","A":"screen-right","B":"screen-left","reason":"high: lowered faces still turn right and left"},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"high: A has lowered head; B lifts muzzle and eyes"},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"high: A face is raised; B head and gaze are lowered"},
+    {"pair":"vertical-3","A":"up","B":"down","reason":"high: A muzzle is elevated; B eye line is downward"},
+    {"pair":"vertical-4","A":"up","B":"up","reason":"medium: both appear slightly lifted"},
+    {"pair":"vertical-5","A":"up","B":"down","reason":"high: A raises nose; B bends toward ground"},
+    {"pair":"vertical-6","A":"up","B":"up","reason":"medium: both left-facing muzzles appear above level"},
+    {"pair":"vertical-7","A":"up","B":"up","reason":"medium: both chins appear slightly lifted"}
+  ]
+}

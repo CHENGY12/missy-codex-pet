@@ -1,0 +1,25 @@
+{
+  "row": 10,
+  "ok": true,
+  "reviewed_at": "2026-07-17T18:49:05Z",
+  "directions": [
+    {"degree": "180", "expected": "down", "observed": "both eyes and muzzle point down with the planted body retained", "verdict": "pass", "reason": "clear down cardinal and one-step continuation after 157.5"},
+    {"degree": "202.5", "expected": "down-left", "observed": "downward gaze gains a small screen-left nose and pupil shift", "verdict": "pass", "reason": "first even step toward left"},
+    {"degree": "225", "expected": "down-left", "observed": "nose and pupils sit farther screen-left while retaining a downward cue", "verdict": "pass", "reason": "both axes are visible"},
+    {"degree": "247.5", "expected": "down-left", "observed": "strong screen-left head yaw retains a small downward pitch", "verdict": "pass", "reason": "continuous approach to the left cardinal"},
+    {"degree": "270", "expected": "left", "observed": "nose and visible pupil sit unmistakably screen-left of head center", "verdict": "pass", "reason": "matches the approved left cardinal family"},
+    {"degree": "292.5", "expected": "up-left", "observed": "screen-left yaw remains as the eyes and muzzle begin lifting", "verdict": "pass", "reason": "first even step above the left cardinal"},
+    {"degree": "315", "expected": "up-left", "observed": "nose and pupils remain screen-left with a clearer upward pitch", "verdict": "pass", "reason": "both axes are visible"},
+    {"degree": "337.5", "expected": "up-left", "observed": "head and eyes point mostly up while retaining a screen-left cue", "verdict": "pass", "reason": "lands one continuous step before 000 up"}
+  ],
+  "scale_review": {
+    "verdict": "pass",
+    "row_9_bbox_heights": [179, 179, 168, 166, 164, 163, 156, 147],
+    "row_10_bbox_heights": [139, 139, 142, 153, 157, 157, 163, 166],
+    "evidence": "The corrected 2172x724 source matches row 9's canvas and practical pet size; the lower height at 180 is explained by the downward head pitch rather than zoom-out."
+  },
+  "continuity": {
+    "verdict": "pass",
+    "evidence": "Paws, belly, lower torso, baseline, flank patch, tail base, and right-curving tail family remain registered. The 157.5->180 and 337.5->000 boundaries are single-step head-and-eye changes without body rotation, tail teleport, scale pop, or identity change."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "pairs": [
+    {"pair":"horizontal-1","A":"screen-right","B":"screen-left","reason":"high: A muzzle turns right; B muzzle and whiskers point left"},
+    {"pair":"horizontal-2","A":"screen-left","B":"screen-right","reason":"high: opposed head profiles clearly point left and right"},
+    {"pair":"horizontal-3","A":"screen-left","B":"screen-right","reason":"high: A nose projects left; B nose projects right"},
+    {"pair":"horizontal-4","A":"screen-left","B":"screen-right","reason":"high: head and eye orientation oppose clearly"},
+    {"pair":"horizontal-5","A":"screen-left","B":"screen-right","reason":"high: A faces left while B faces right"},
+    {"pair":"horizontal-6","A":"screen-left","B":"screen-right","reason":"high: A muzzle points left; B muzzle points right"},
+    {"pair":"horizontal-7","A":"screen-right","B":"screen-left","reason":"high: downturned heads still show opposed right and left muzzles"},
+    {"pair":"vertical-1","A":"down","B":"up","reason":"high: A lowers its face; B lifts its chin"},
+    {"pair":"vertical-2","A":"up","B":"down","reason":"high: A looks above level; B dips its head and gaze"},
+    {"pair":"vertical-3","A":"up","B":"down","reason":"high: A chin is raised; B muzzle slopes downward"},
+    {"pair":"vertical-4","A":"up","B":"down","reason":"medium: A is slightly elevated; B is slightly lowered"},
+    {"pair":"vertical-5","A":"up","B":"down","reason":"high: A looks upward; B looks sharply downward"},
+    {"pair":"vertical-6","A":"up","B":"down","reason":"medium: A tilts upward; B slopes down-left"},
+    {"pair":"vertical-7","A":"up","B":"down","reason":"medium: A holds the muzzle higher; B carries it lower"}
+  ]
+}
