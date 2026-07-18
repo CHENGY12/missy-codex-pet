@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "version": "2.2.1",
+  "preview": "./qa/previews/idle.gif",
+  "source": "final despilled atlas cells",
+  "frames": 6,
+  "blue_dominant_visible_pixels_per_frame": [0, 0, 0, 0, 0, 0],
+  "near_pure_blue_visible_pixels_per_frame": [0, 0, 0, 0, 0, 0],
+  "note": "The preview was regenerated from the final atlas rather than pre-despill intermediate frames."
+}
