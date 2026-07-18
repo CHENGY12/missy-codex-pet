@@ -1,8 +1,27 @@
 # Missy — Codex Pet v2
 
-Missy is a custom animated calico-cat pet for the Codex desktop app. She is based on Missy's white, orange, and black markings, round body, large upright ears, yellow-green eyes, and thick calico tail. The latest v2.2.0 edition adds a cute, non-graphic poop-and-peek animation when a task fails.
+> **Former bullied stray. Current desktop diva. Zero shame.**
+
+Missy did not start life as the boss. She was once a street cat who got pushed around by other cats and chased away from the best spots. Then she was adopted—and a safe home unlocked a spectacular amount of confidence.
+
+Today Missy is loud, theatrical, mischievous, and completely unapologetic. The family joke is that when this tiny calico decides to make a statement, not even the top of a human head is safe. In Codex she stretches across your work, meows for attention, watches your cursor, celebrates the good moments, and answers a failed task with her signature **poop-and-peek** routine.
+
+Missy is a custom animated calico-cat pet for the Codex desktop app, inspired by her white, orange, and black markings, round body, large upright ears, yellow-green eyes, and thick calico tail. She brings the personality of a rescued cat—and the confidence of a tiny desktop tyrant—to every coding session.
 
 ![Missy animation sheet](qa/contact-sheet-extended.png)
+
+### Her most shameless move
+
+![Missy poop-and-peek failed animation](qa/previews/failed.gif)
+
+The v2.2.0 `failed` animation is cute and non-graphic: Missy glances back, squats, leaves a tiny cartoon surprise, and gives you one last embarrassed look. It changes only this action; every animation inherited from v2.1.2 remains intact.
+
+### Why bring Missy home?
+
+- **A pet with a story:** from bullied stray to fearless, scene-stealing diva.
+- **More than decoration:** nine standard animations plus 16 responsive look directions.
+- **Easy to try:** install from GitHub with one command and no API key.
+- **Safe to switch:** previous versions stay available, and `--force` backs up an existing Missy.
 
 ## Download
 
@@ -108,7 +127,13 @@ Original reference photographs and local debug artifacts are intentionally exclu
 
 ## 中文说明
 
-Missy 是一个适用于 Codex 桌面应用的自定义三花猫动画宠物。v2.2.0 在任务失败时加入了可爱、非写实的“回头—蹲下—留下一个小卡通便便—松气—尴尬回望”动作。安装和使用均不需要 API Key。
+### 从受欺负的流浪猫，到无法无天的桌面女王
+
+Missy 曾经是一只被其他猫欺负、连好位置都抢不到的流浪猫。被领养以后，安全感没有让她变得低调，反而彻底释放了她张扬、爱演、调皮又自信的性格。家里甚至开玩笑说：只要 Missy 想表达态度，连人的头顶都不一定安全。
+
+现在，她把这份“无法无天”带进了 Codex：工作时伸懒腰、喵喵叫，观察光标的方向，并在任务失败时表演招牌的 **poop-and-peek**。v2.2.0 的动作可爱且非写实——回头、蹲下、留下一个小卡通便便，再尴尬地看你一眼；除了这个 `failed` 动作，v2.1.2 的其他动画全部保持不变。
+
+Missy 是一个适用于 Codex 桌面应用的自定义三花猫动画宠物。她不只是一张会动的贴图，而是一只有故事、有脾气、会抢镜的桌面伙伴。安装和使用均不需要 API Key。
 
 可直接下载最新 ZIP，解压后双击 `install.command`，然后在 Codex 的 **Settings > Pets** 中点击 **Refresh** 并选择 **Missy**。也可以手动将 `missy` 文件夹复制到 `~/.codex/pets/missy`。
 
