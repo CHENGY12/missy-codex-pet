@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "version": "2.1.2",
+  "repair": "Replace running-left row 2 with a framewise horizontal mirror of the approved running-right row while preserving frame order.",
+  "visual_qa": "pass",
+  "qa_note": "The repaired row removes the red/purple whisker tint while preserving visible whiskers, coherent leftward gait, clean uncropped silhouettes, and Missy's identity across all eight frames; reports confirm only row 2 changed and atlas validation passes.",
+  "repair_needed": "none",
+  "row_inspection": "./qa/rows/running-left/review.json",
+  "row_patch": "./qa/v2.1.2-row-patch.json",
+  "atlas_validation": "./qa/atlas-validation-v2.1.2.json",
+  "before_after": "./qa/v2.1.2-running-left-before-after.png",
+  "preview": "./qa/previews/running-left.gif"
+}

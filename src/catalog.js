@@ -22,6 +22,17 @@ const missyVersions = Object.freeze({
       new URL("../versions/2.1.1/missy/spritesheet.webp", import.meta.url)
     ),
     spritesheetSha256: "3567058c430d4c4da48b2d36d4328f8efcdd8762f9632774f1d92046135f068e"
+  }),
+  "2.1.2": Object.freeze({
+    installId: "missy",
+    displayName: "Missy Stretch & Meow (v2.1.2)",
+    manifestPath: fileURLToPath(
+      new URL("../versions/2.1.2/missy/pet.json", import.meta.url)
+    ),
+    spritesheetPath: fileURLToPath(
+      new URL("../versions/2.1.2/missy/spritesheet.webp", import.meta.url)
+    ),
+    spritesheetSha256: "ab290c365020889bac82ab6b287e0a6d34e31216e94c9a31486a906e08cdbe53"
   })
 });
 
@@ -29,7 +40,7 @@ export const pets = Object.freeze({
   missy: Object.freeze({
     id: "missy",
     displayName: "Missy",
-    latestVersion: "2.1.1",
+    latestVersion: "2.1.2",
     versions: missyVersions
   })
 });
