@@ -1,0 +1,38 @@
+{
+  "version": "2.2.0",
+  "visual_qa": "pass",
+  "repair_needed": "none",
+  "qa_note": "The eight-frame failed-state sequence clearly reads notice, turn, squat, effort, poop appears, relief, step forward, and embarrassed look-back. Missy's calico identity remains consistent, all subjects fit inside their 192x208 cells, and the content is cute and non-graphic.",
+  "failed_row": {
+    "state": "failed",
+    "row": 5,
+    "frames": 8,
+    "sequence": [
+      "notice and glance back",
+      "turn with tail raised",
+      "lower into a squat",
+      "strain with eyes closed",
+      "tiny cartoon poop appears",
+      "relax",
+      "step forward and look back",
+      "stand with an embarrassed glance"
+    ],
+    "content_review": {
+      "verdict": "pass",
+      "evidence": "The poop is a small emoji-like brown pile. No anatomical detail, body fluids, smell lines, flies, or text are present."
+    },
+    "identity_review": {
+      "verdict": "pass",
+      "evidence": "White coat, black-and-orange crown, yellow-green eyes, orange flank patch, upright ears, and black-and-orange tail remain recognizable and frame-consistent."
+    },
+    "registration_review": {
+      "verdict": "pass",
+      "evidence": "All eight frames share a stable baseline and common scale; every bounding box has at least five pixels of cell padding and zero edge pixels."
+    }
+  },
+  "changed_rows": [5],
+  "unchanged_rows": [0, 1, 2, 3, 4, 6, 7, 8, 9, 10],
+  "look_rows_unchanged": true,
+  "atlas_validation": "pass",
+  "chroma_validation": "pass"
+}

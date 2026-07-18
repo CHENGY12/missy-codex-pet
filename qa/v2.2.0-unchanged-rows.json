@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "base_atlas": "./versions/2.1.2/missy/spritesheet.webp",
+  "replacement_row": 5,
+  "replacement_state": "failed",
+  "replacement_frames": 8,
+  "changed_rows": [
+    5
+  ],
+  "unchanged_rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "other_standard_rows_unchanged": true,
+  "look_rows_unchanged": true,
+  "decoded_webp_changed_rows": [
+    5
+  ],
+  "decoded_webp_look_rows_unchanged": true
+}

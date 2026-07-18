@@ -1,7 +1,7 @@
 {
   "name": "@chengy12/codex-pets",
-  "version": "1.1.2",
-  "description": "Install Missy, a Codex v2 animated calico-cat pet.",
+  "version": "1.2.0",
+  "description": "Install Missy, a Codex v2 animated calico-cat pet with a poop-and-peek failed action.",
   "type": "module",
   "bin": {
     "codex-pets": "bin/codex-pets.js"
@@ -13,6 +13,7 @@
     "versions/2.0.0/",
     "versions/2.1.1/",
     "versions/2.1.2/",
+    "versions/2.2.0/",
     "README.md"
   ],
   "scripts": {

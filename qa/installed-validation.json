@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "/Users/guangyichen/.codex/pets/missy/spritesheet.webp",
+  "file": "./missy/spritesheet.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -377,7 +377,7 @@
       "row": 5,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 20289,
+      "nontransparent_pixels": 20951,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -386,7 +386,7 @@
       "row": 5,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 24347,
+      "nontransparent_pixels": 17571,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -395,7 +395,7 @@
       "row": 5,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 20920,
+      "nontransparent_pixels": 15926,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -404,7 +404,7 @@
       "row": 5,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 16443,
+      "nontransparent_pixels": 15182,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -413,7 +413,7 @@
       "row": 5,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 16954,
+      "nontransparent_pixels": 16024,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -422,7 +422,7 @@
       "row": 5,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 16628,
+      "nontransparent_pixels": 16796,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -431,7 +431,7 @@
       "row": 5,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 17825,
+      "nontransparent_pixels": 16146,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -440,7 +440,7 @@
       "row": 5,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 20554,
+      "nontransparent_pixels": 17798,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
