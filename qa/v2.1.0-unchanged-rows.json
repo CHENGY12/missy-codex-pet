@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "base_atlas": "/Users/guangyichen/tmp/missy-v2.1.0-repair/base-v2.0.0.webp",
+  "replacement_row": 7,
+  "replacement_state": "running",
+  "replacement_frames": 6,
+  "changed_rows": [
+    7
+  ],
+  "unchanged_rows": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "unused_running_cells_unchanged": true,
+  "look_rows_unchanged": true,
+  "decoded_webp_changed_rows": [
+    7
+  ],
+  "decoded_webp_look_rows_unchanged": true
+}

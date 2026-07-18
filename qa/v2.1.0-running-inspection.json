@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "frames_root": "/Users/guangyichen/tmp/missy-v2.1.0-repair/frames",
+  "states": [
+    "running"
+  ],
+  "errors": [],
+  "warnings": [],
+  "rows": [
+    {
+      "state": "running",
+      "expected_frames": 6,
+      "actual_frames": 6,
+      "extraction_method": "components",
+      "ok": true,
+      "errors": [],
+      "warnings": [],
+      "frames": [
+        {
+          "index": 0,
+          "file": "/Users/guangyichen/tmp/missy-v2.1.0-repair/frames/running/00.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19643,
+          "bbox": [
+            5,
+            13,
+            187,
+            194
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 461
+        },
+        {
+          "index": 1,
+          "file": "/Users/guangyichen/tmp/missy-v2.1.0-repair/frames/running/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 16495,
+          "bbox": [
+            5,
+            8,
+            187,
+            200
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 343
+        },
+        {
+          "index": 2,
+          "file": "/Users/guangyichen/tmp/missy-v2.1.0-repair/frames/running/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14488,
+          "bbox": [
+            10,
+            5,
+            181,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 309
+        },
+        {
+          "index": 3,
+          "file": "/Users/guangyichen/tmp/missy-v2.1.0-repair/frames/running/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 20846,
+          "bbox": [
+            5,
+            5,
+            187,
+            203
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 502
+        },
+        {
+          "index": 4,
+          "file": "/Users/guangyichen/tmp/missy-v2.1.0-repair/frames/running/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19627,
+          "bbox": [
+            5,
+            9,
+            187,
+            199
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 419
+        },
+        {
+          "index": 5,
+          "file": "/Users/guangyichen/tmp/missy-v2.1.0-repair/frames/running/05.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 19021,
+          "bbox": [
+            5,
+            15,
+            187,
+            193
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 453
+        }
+      ]
+    }
+  ]
+}

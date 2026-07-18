@@ -10,7 +10,7 @@ function captureOutput() {
 test("lists Missy", async () => {
   const { lines, io } = captureOutput();
   await runCli(["list"], io);
-  assert.deepEqual(lines, ["missy\tMissy"]);
+  assert.deepEqual(lines, ["missy\tMissy\tlatest=2.1.0\tversions=2.0.0,2.1.0"]);
 });
 
 test("prints help", async () => {

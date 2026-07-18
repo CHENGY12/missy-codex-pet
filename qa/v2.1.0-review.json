@@ -1,0 +1,22 @@
+{
+  "version": "2.1.0",
+  "visual_qa": "pass",
+  "repair_needed": "none",
+  "qa_note": "Only row 7 changed; its six unclipped, identity-consistent frames clearly read calm, stretch, deep stretch, lift/open, clear meow, and settle, while rows 0-6 and 8-10 remain unchanged and validation passes.",
+  "running_row": {
+    "state": "running",
+    "row": 7,
+    "frames": 6,
+    "sequence": [
+      "calm anticipation",
+      "front-paws-forward stretch",
+      "deep stretch",
+      "lift head and begin opening mouth",
+      "clear open-mouth meow",
+      "close mouth and settle"
+    ]
+  },
+  "unchanged_rows": [0, 1, 2, 3, 4, 5, 6, 8, 9, 10],
+  "look_rows_unchanged": true,
+  "atlas_validation": "pass"
+}
