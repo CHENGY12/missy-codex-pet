@@ -21,6 +21,28 @@ test("installs the bundled v2 Missy package", async () => {
   assert.equal(manifest.id, "missy");
   assert.equal(manifest.spriteVersionNumber, 2);
   assert.ok((await readFile(path.join(result.installPath, "spritesheet.webp"))).length > 2_000_000);
+  assert.equal(result.version, "2.1.0");
+});
+
+test("installs the preserved Missy v2.0.0 package on request", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "missy-v2-0-"));
+  const result = await addPet({
+    petId: "missy",
+    version: "2.0.0",
+    codexDirectory: root
+  });
+
+  assert.equal(result.version, "2.0.0");
+  assert.equal(result.changed, true);
+  assert.ok((await readFile(path.join(result.installPath, "spritesheet.webp"))).length > 2_000_000);
+});
+
+test("rejects unknown Missy versions with the available choices", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "missy-version-missing-"));
+  await assert.rejects(
+    () => addPet({ petId: "missy", version: "9.9.9", codexDirectory: root }),
+    /available versions: 2\.0\.0, 2\.1\.0/
+  );
 });
 
 test("treats the exact published package as already installed", async () => {

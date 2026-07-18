@@ -5,6 +5,8 @@ import { addPet } from "./installer.js";
 
 const helpText = `Usage:
   codex-pets add missy [--force]
+  codex-pets add missy@2.0.0 [--force]
+  codex-pets add missy@2.1.0 [--force]
   codex-pets list
 
 Options:
@@ -30,19 +32,23 @@ export async function runCli(args, io = console) {
 
   if (command === "list") {
     if (rest.length) throw new Error("usage: codex-pets list");
-    for (const pet of listPets()) io.log(`${pet.id}\t${pet.displayName}`);
+    for (const pet of listPets()) {
+      io.log(
+        `${pet.id}\t${pet.displayName}\tlatest=${pet.latestVersion}\tversions=${pet.versions.join(",")}`
+      );
+    }
     return;
   }
 
   if (command === "add") {
-    const { petId, force } = parseAddArguments(rest);
-    const result = await addPet({ petId, force });
+    const { petId, version, force } = parseAddArguments(rest);
+    const result = await addPet({ petId, version, force });
     if (result.changed) {
-      io.log(`Installed ${result.displayName} (${result.id})`);
+      io.log(`Installed ${result.displayName} (${result.id}) v${result.version}`);
       io.log(result.installPath);
       if (result.backupPath) io.log(`Previous pet backed up to ${result.backupPath}`);
     } else {
-      io.log(`${result.displayName} is already installed and up to date.`);
+      io.log(`${result.displayName} v${result.version} is already installed and up to date.`);
       io.log(result.installPath);
     }
     io.log("Open Codex > Settings > Pets, select Refresh, and choose Missy.");
@@ -56,9 +62,15 @@ function parseAddArguments(args) {
   const forceArgs = args.filter((argument) => argument === "--force");
   const positional = args.filter((argument) => argument !== "--force");
   if (positional.length !== 1 || forceArgs.length > 1) {
-    throw new Error("usage: codex-pets add missy [--force]");
+    throw new Error("usage: codex-pets add missy[@version] [--force]");
   }
-  return { petId: positional[0], force: forceArgs.length === 1 };
+  const match = positional[0].match(/^([a-z0-9]+(?:-[a-z0-9]+)*)(?:@(\d+\.\d+\.\d+))?$/);
+  if (!match) throw new Error("pet must be a lowercase slug, optionally followed by @version");
+  return {
+    petId: match[1],
+    version: match[2] || null,
+    force: forceArgs.length === 1
+  };
 }
 
 async function packageVersion() {

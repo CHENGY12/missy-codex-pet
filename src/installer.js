@@ -2,7 +2,7 @@ import { createHash, randomUUID } from "node:crypto";
 import { copyFile, mkdir, readFile, rename, rm, stat } from "node:fs/promises";
 import { homedir } from "node:os";
 import path from "node:path";
-import { getPet } from "./catalog.js";
+import { getPet, getPetVersions } from "./catalog.js";
 
 const petSlugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
 
@@ -20,12 +20,19 @@ export function defaultCodexDirectory(environment = process.env) {
 
 export async function addPet({
   petId,
+  version = null,
   codexDirectory = defaultCodexDirectory(),
   force = false
 }) {
   const normalizedPetId = normalizePetId(petId);
-  const pet = getPet(normalizedPetId);
+  const pet = getPet(normalizedPetId, version);
   if (!pet) {
+    const versions = getPetVersions(normalizedPetId);
+    if (versions.length && version) {
+      throw new Error(
+        `unknown ${normalizedPetId} version "${version}"; available versions: ${versions.join(", ")}`
+      );
+    }
     throw new Error(`unknown pet "${normalizedPetId}"; run codex-pets list`);
   }
 
