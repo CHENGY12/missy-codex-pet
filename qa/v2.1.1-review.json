@@ -1,0 +1,10 @@
+{
+  "version": "2.1.1",
+  "visual_qa": "pass",
+  "repair_needed": "none",
+  "qa_note": "Before-and-after review confirms that the blue fringe was removed while Missy's whiskers remain visible. Row 7 preserves the stretch-and-meow poses, only row 7 changed, all other and look rows remain unchanged, and blue-key atlas validation passes with zero errors.",
+  "chroma_key": "#0000FF",
+  "changed_rows": [7],
+  "look_rows_unchanged": true,
+  "atlas_validation": "pass"
+}

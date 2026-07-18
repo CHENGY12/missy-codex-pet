@@ -6,7 +6,7 @@ import { addPet } from "./installer.js";
 const helpText = `Usage:
   codex-pets add missy [--force]
   codex-pets add missy@2.0.0 [--force]
-  codex-pets add missy@2.1.0 [--force]
+  codex-pets add missy@2.1.1 [--force]
   codex-pets list
 
 Options:
@@ -51,7 +51,7 @@ export async function runCli(args, io = console) {
       io.log(`${result.displayName} v${result.version} is already installed and up to date.`);
       io.log(result.installPath);
     }
-    io.log("Open Codex > Settings > Pets, select Refresh, and choose Missy.");
+    io.log(`Open Codex > Settings > Pets, select Refresh, and choose ${result.displayName}.`);
     return;
   }
 
