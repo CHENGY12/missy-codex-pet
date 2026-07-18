@@ -1,7 +1,7 @@
 {
-  "id": "missy",
-  "displayName": "Missy",
-  "description": "Missy is a curious, round-bodied calico cat with mostly white fur, large upright ears, yellow-green eyes, a pink nose, an asymmetric black-and-orange crown, one warm orange flank patch, and a thick black-and-orange tail.",
+  "id": "missy-original-v2-0-0",
+  "displayName": "Missy Original (v2.0.0)",
+  "description": "Missy's original v2.0.0 animation set, kept as a separately installable pet so it can coexist with the stretch-and-meow edition.",
   "spriteVersionNumber": 2,
   "spritesheetPath": "spritesheet.webp"
 }

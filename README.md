@@ -8,7 +8,7 @@ Missy is a custom animated calico-cat pet for the Codex desktop app. She is base
 
 [Download the latest Missy installer](https://github.com/CHENGY12/missy-codex-pet/releases/latest/download/missy-codex-pet-v2.zip)
 
-[Install Missy directly in Codex](codex://pets/install?name=Missy&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCHENGY12%2Fmissy-codex-pet%2Fmain%2Fmissy%2Fspritesheet.webp&description=Missy%20the%20calico%20cat&spriteVersionNumber=2)
+[Install Missy Stretch & Meow directly in Codex](codex://pets/install?name=Missy%20Stretch%20%26%20Meow%20(v2.1.1)&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCHENGY12%2Fmissy-codex-pet%2Fmain%2Fmissy%2Fspritesheet.webp&description=Missy%20the%20calico%20cat&spriteVersionNumber=2)
 
 Install from this GitHub repository with `npx`:
 
@@ -19,18 +19,18 @@ npx --yes github:CHENGY12/missy-codex-pet add missy
 That command installs the latest version. You can also choose either published pet version explicitly:
 
 ```sh
-# v2.1.0 — stretch and meow while Codex is working
-npx --yes github:CHENGY12/missy-codex-pet add missy@2.1.0
+# v2.1.1 — Missy Stretch & Meow; corrected blue whisker edges
+npx --yes github:CHENGY12/missy-codex-pet add missy@2.1.1
 
-# v2.0.0 — original working animation
+# v2.0.0 — Missy Original
 npx --yes github:CHENGY12/missy-codex-pet add missy@2.0.0
 ```
 
-If another Missy version is already installed, append `--force`. The installer first preserves the current folder as a timestamped backup, then switches versions.
+The two commands install distinct pet IDs and display names, so both editions can remain in Codex at the same time. `--force` is needed only when replacing a modified copy of the same edition.
 
 Versioned ZIP downloads:
 
-- [Missy v2.1.0](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.1.0/missy-codex-pet-v2.zip)
+- [Missy Stretch & Meow v2.1.1](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.1.1/missy-codex-pet-v2.zip)
 - [Missy v2.0.0](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.0.0/missy-codex-pet-v2.zip)
 
 The public `codex-pets` catalog command will be:
@@ -63,7 +63,7 @@ Manual installation is also supported: copy the included `missy` folder to `~/.c
 
 ## Animation triggers
 
-- `running` is Codex's active-work/loading state. In v2.1.0, Missy stretches and then visibly meows.
+- `running` is Codex's active-work/loading state. In v2.1.1, Missy stretches and then visibly meows; the blue-key fringe on her whiskers has been removed.
 - `running-right` and `running-left` are drag movement and were not changed.
 - The two `look` rows are valid and unchanged from v2.0.0. In the current Codex desktop renderer they respond to the Computer Use cursor event, not ordinary mouse movement, and Codex temporarily disables looking while the pet itself is being dragged. This trigger behavior is controlled by Codex rather than by `pet.json` or the sprite sheet.
 
@@ -76,7 +76,7 @@ The published sprite sheet passed:
 - all nine standard animation-row checks
 - three isolated blind direction reviews combined by strict majority
 - independent final visual QA of all 16 looking directions
-- v2.1.0 pixel comparison confirming that only row 7 changed and both look rows remained identical
+- v2.1.1 validation with the correct `#0000FF` chroma key and pixel comparison confirming that only row 7 changed from v2.1.0
 
 See [`qa/`](qa/) for the retained reports, contact sheets, direction sheets, frame checks, and animation previews.
 
@@ -84,7 +84,7 @@ See [`qa/`](qa/) for the retained reports, contact sheets, direction sheets, fra
 
 ```text
 missy/     Install-ready pet.json and spritesheet.webp
-versions/  Preserved install-ready v2.0.0 and v2.1.0 packages
+versions/  Preserved install-ready v2.0.0, v2.1.0, and v2.1.1 packages
 bin/       npx command entry point
 src/       Safe, atomic installer and bundled pet catalog
 test/      Node.js installer and CLI tests
@@ -101,4 +101,4 @@ Missy 是一个适用于 Codex 桌面应用的自定义三花猫动画宠物。�
 
 可直接下载最新 ZIP，解压后双击 `install.command`，然后在 Codex 的 **Settings > Pets** 中点击 **Refresh** 并选择 **Missy**。也可以手动将 `missy` 文件夹复制到 `~/.codex/pets/missy`。
 
-命令安装默认选择最新的 v2.1.0；也可以使用 `missy@2.1.0` 或 `missy@2.0.0` 指定版本。切换已有版本时加上 `--force`，安装器会先自动备份当前 Missy。
+命令安装默认选择最新的 v2.1.1；也可以使用 `missy@2.1.1` 或 `missy@2.0.0` 指定版本。两个版本使用不同名称和目录，可以同时显示在 Codex 中。

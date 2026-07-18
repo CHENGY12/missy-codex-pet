@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "base_atlas": "/Users/guangyichen/Documents/survey/missy-codex-pet/missy/spritesheet.webp",
+  "cleaned_row": "/Users/guangyichen/tmp/missy-v2.1.1-repair/running-row-clean.png",
+  "changed_rows": [
+    7
+  ],
+  "decoded_webp_changed_rows": [
+    7
+  ],
+  "alpha_preserved": true,
+  "other_standard_rows_unchanged": true,
+  "look_rows_unchanged": true
+}

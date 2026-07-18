@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "input": "/Users/guangyichen/tmp/missy-v2.1.1-repair/running-row-before.png",
+  "output": "/Users/guangyichen/tmp/missy-v2.1.1-repair/running-row-clean.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 13972,
+  "decontaminated_pixels": 13147,
+  "spill_suppressed_pixels": 13972,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c3": 2686,
+    "r0c4": 2504,
+    "r0c0": 2460,
+    "r0c5": 2435,
+    "r0c1": 2021,
+    "r0c2": 1866
+  },
+  "alpha_preserved": true
+}
