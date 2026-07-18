@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "version": "2.2.1",
+  "repair": "Replace only idle row 0 with a stable six-frame blink-and-tail loop, rigidly register its horizontal body anchor, and use frame 0 as the matching neutral cell.",
+  "visual_qa": "pass",
+  "qa_note": "Missy's horizontal body anchor, height, and feet baseline remain fixed through all six idle frames; the blink is calm, the tail follows a broader smooth arc, the preview contains no blue edge pixels, and the other ten atlas rows are unchanged.",
+  "repair_needed": "none",
+  "row_inspection": "./qa/rows/idle/review.json",
+  "stability_metrics": "./qa/v2.2.1-idle-stability.json",
+  "horizontal_registration": "./qa/v2.2.1-horizontal-registration.json",
+  "preview_fringe": "./qa/v2.2.1-preview-fringe.json",
+  "row_patch": "./qa/v2.2.1-row-patch.json",
+  "atlas_validation": "./qa/atlas-validation-v2.2.1.json",
+  "contact_sheet": "./qa/contact-sheet-extended.png",
+  "preview": "./qa/previews/idle.gif"
+}
