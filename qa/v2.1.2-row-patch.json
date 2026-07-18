@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "base_atlas": "./versions/2.1.1/missy/spritesheet.webp",
+  "replacement_row": "framewise horizontal mirror of row 1 (running-right), preserving frame order",
+  "output": "./missy/spritesheet.webp",
+  "row_index": 2,
+  "changed_rows": [
+    2
+  ],
+  "unchanged_rows": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "other_rows_unchanged": true,
+  "decoded_webp_matches_expected": true,
+  "extreme_red_magenta_pixels_before": 101,
+  "extreme_red_magenta_pixels_after": 33,
+  "note": "Remaining red-magenta pixels are the intentional pink nose and ear interiors; the exterior whiskers are neutral white-gray.",
+  "output_sha256": "ab290c365020889bac82ab6b287e0a6d34e31216e94c9a31486a906e08cdbe53"
+}
