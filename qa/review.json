@@ -251,7 +251,7 @@
       "state": "running-left",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "atlas-cells",
       "ok": true,
       "errors": [],
       "warnings": [],
@@ -261,37 +261,7 @@
           "file": "./frames/running-left/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11453,
-          "bbox": [
-            5,
-            46,
-            187,
-            161
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 291
-        },
-        {
-          "index": 1,
-          "file": "./frames/running-left/01.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 13105,
-          "bbox": [
-            5,
-            32,
-            187,
-            175
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 385
-        },
-        {
-          "index": 2,
-          "file": "./frames/running-left/02.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 12304,
+          "nontransparent_pixels": 13309,
           "bbox": [
             5,
             35,
@@ -299,82 +269,112 @@
             172
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 327
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 1,
+          "file": "./frames/running-left/01.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14323,
+          "bbox": [
+            5,
+            29,
+            187,
+            179
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "./frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14631,
+          "bbox": [
+            5,
+            26,
+            187,
+            181
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
           "file": "./frames/running-left/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 10449,
+          "nontransparent_pixels": 14453,
           "bbox": [
             5,
-            47,
+            28,
             187,
-            161
+            180
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 251
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
           "file": "./frames/running-left/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 10458,
+          "nontransparent_pixels": 15283,
           "bbox": [
             5,
-            44,
+            27,
             187,
-            164
+            180
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 286
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
           "file": "./frames/running-left/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13012,
+          "nontransparent_pixels": 13379,
           "bbox": [
             5,
-            36,
+            38,
             187,
-            172
+            170
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 377
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
           "file": "./frames/running-left/06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12802,
+          "nontransparent_pixels": 14027,
           "bbox": [
             5,
-            31,
+            28,
             187,
-            176
+            180
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 391
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 7,
           "file": "./frames/running-left/07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13245,
+          "nontransparent_pixels": 14644,
           "bbox": [
             5,
-            32,
+            26,
             187,
-            176
+            182
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 376
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -539,7 +539,7 @@
       "state": "failed",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "atlas-cells",
       "ok": true,
       "errors": [],
       "warnings": [],

@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "input": "./source/v2.3.0-running-left-row.png",
+  "output": "./source/v2.3.0-running-left-row-clean.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 15600,
+  "decontaminated_pixels": 13954,
+  "spill_suppressed_pixels": 15600,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c4": 2130,
+    "r0c1": 2097,
+    "r0c0": 1949,
+    "r0c3": 1947,
+    "r0c6": 1909,
+    "r0c2": 1894,
+    "r0c5": 1882,
+    "r0c7": 1792
+  },
+  "alpha_preserved": true
+}

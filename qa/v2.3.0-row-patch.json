@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "version": "2.3.0",
+  "baseVersion": "2.2.1",
+  "baseAtlas": "./versions/2.2.1/missy/spritesheet.webp",
+  "poopSourceAtlas": "./versions/2.2.0/missy/spritesheet.webp",
+  "nativeRunningLeftFrames": "./source/v2.3.0-running-left-frames",
+  "changedRows": [
+    2,
+    5
+  ],
+  "unchangedRows": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "row0StableIdlePreserved": true,
+  "row5MatchesV2.2.0PoopAndPeek": true,
+  "lookRowsUnchanged": true,
+  "outputSha256": "cd6568c6d3b4d447e325ddc0ebe092fc7f55bdf8a617e0802b5c4e5425b0771d"
+}

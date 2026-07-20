@@ -11,7 +11,7 @@
       "state": "failed",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "atlas-cells",
       "ok": true,
       "errors": [],
       "warnings": [],

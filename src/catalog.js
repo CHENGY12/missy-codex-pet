@@ -55,6 +55,17 @@ const missyVersions = Object.freeze({
       new URL("../versions/2.2.1/missy/spritesheet.webp", import.meta.url)
     ),
     spritesheetSha256: "96b46f6cedba898630e0900e0c7f34f2a9c2caaef75ad087fd14912cc3c4b342"
+  }),
+  "2.3.0": Object.freeze({
+    installId: "missy",
+    displayName: "Missy Poop, Peek & Run (v2.3.0)",
+    manifestPath: fileURLToPath(
+      new URL("../versions/2.3.0/missy/pet.json", import.meta.url)
+    ),
+    spritesheetPath: fileURLToPath(
+      new URL("../versions/2.3.0/missy/spritesheet.webp", import.meta.url)
+    ),
+    spritesheetSha256: "cd6568c6d3b4d447e325ddc0ebe092fc7f55bdf8a617e0802b5c4e5425b0771d"
   })
 });
 
@@ -62,7 +73,7 @@ export const pets = Object.freeze({
   missy: Object.freeze({
     id: "missy",
     displayName: "Missy",
-    latestVersion: "2.2.1",
+    latestVersion: "2.3.0",
     versions: missyVersions
   })
 });

@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "version": "2.3.0",
+  "runningLeft": {
+    "direction": "screen-left",
+    "frameCount": 8,
+    "mirrorDerived": false,
+    "nearEar": "Missy's anatomical left ear, dark black",
+    "farEar": "Missy's anatomical right ear, pale pink/white with dark-orange base"
+  },
+  "failed": {
+    "action": "cute non-graphic poop-and-peek",
+    "sourceVersion": "2.2.0",
+    "frameCount": 8
+  },
+  "independentVisualQa": {
+    "ok": true,
+    "note": "Eight separated left-facing frames preserve Missy's asymmetric ear identity; poop-and-peek reads clearly; no obvious clipping, fringe, extra sprites, or scale discontinuity."
+  },
+  "contactSheet": "./qa/contact-sheet-extended.png"
+}

@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "frames_root": "/Users/guangyichen/Documents/survey/missy-codex-pet/qa/rows/running-left/frames",
+  "frames_root": "./qa/rows/running-left/frames",
   "states": [
     "running-left"
   ],
@@ -11,32 +11,77 @@
       "state": "running-left",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "atlas-cells",
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "/Users/guangyichen/Documents/survey/missy-codex-pet/qa/rows/running-left/frames/running-left/00.png",
+          "file": "./qa/rows/running-left/frames/running-left/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12311,
+          "nontransparent_pixels": 13309,
           "bbox": [
             5,
             35,
             187,
-            173
+            172
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
-          "file": "/Users/guangyichen/Documents/survey/missy-codex-pet/qa/rows/running-left/frames/running-left/01.png",
+          "file": "./qa/rows/running-left/frames/running-left/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13434,
+          "nontransparent_pixels": 14323,
+          "bbox": [
+            5,
+            29,
+            187,
+            179
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 2,
+          "file": "./qa/rows/running-left/frames/running-left/02.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14631,
+          "bbox": [
+            5,
+            26,
+            187,
+            181
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 3,
+          "file": "./qa/rows/running-left/frames/running-left/03.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14453,
+          "bbox": [
+            5,
+            28,
+            187,
+            180
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 4,
+          "file": "./qa/rows/running-left/frames/running-left/04.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 15283,
           "bbox": [
             5,
             27,
@@ -47,91 +92,46 @@
           "chroma_adjacent_pixels": 0
         },
         {
-          "index": 2,
-          "file": "/Users/guangyichen/Documents/survey/missy-codex-pet/qa/rows/running-left/frames/running-left/02.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 13883,
-          "bbox": [
-            5,
-            24,
-            187,
-            183
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
-        },
-        {
-          "index": 3,
-          "file": "/Users/guangyichen/Documents/survey/missy-codex-pet/qa/rows/running-left/frames/running-left/03.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 14053,
-          "bbox": [
-            5,
-            22,
-            187,
-            186
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
-        },
-        {
-          "index": 4,
-          "file": "/Users/guangyichen/Documents/survey/missy-codex-pet/qa/rows/running-left/frames/running-left/04.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 14347,
-          "bbox": [
-            5,
-            27,
-            187,
-            181
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 0
-        },
-        {
           "index": 5,
-          "file": "/Users/guangyichen/Documents/survey/missy-codex-pet/qa/rows/running-left/frames/running-left/05.png",
+          "file": "./qa/rows/running-left/frames/running-left/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12538,
+          "nontransparent_pixels": 13379,
           "bbox": [
             5,
-            36,
+            38,
             187,
-            171
+            170
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
-          "file": "/Users/guangyichen/Documents/survey/missy-codex-pet/qa/rows/running-left/frames/running-left/06.png",
+          "file": "./qa/rows/running-left/frames/running-left/06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13610,
+          "nontransparent_pixels": 14027,
+          "bbox": [
+            5,
+            28,
+            187,
+            180
+          ],
+          "edge_pixels": 0,
+          "chroma_adjacent_pixels": 0
+        },
+        {
+          "index": 7,
+          "file": "./qa/rows/running-left/frames/running-left/07.png",
+          "width": 192,
+          "height": 208,
+          "nontransparent_pixels": 14644,
           "bbox": [
             5,
             26,
             187,
-            181
-          ],
-          "edge_pixels": 0,
-          "chroma_adjacent_pixels": 5
-        },
-        {
-          "index": 7,
-          "file": "/Users/guangyichen/Documents/survey/missy-codex-pet/qa/rows/running-left/frames/running-left/07.png",
-          "width": 192,
-          "height": 208,
-          "nontransparent_pixels": 14426,
-          "bbox": [
-            5,
-            25,
-            187,
-            183
+            182
           ],
           "edge_pixels": 0,
           "chroma_adjacent_pixels": 0

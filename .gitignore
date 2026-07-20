@@ -4,3 +4,5 @@ __MACOSX/
 *.log
 original-photos/
 debug/
+work/
+__pycache__/
