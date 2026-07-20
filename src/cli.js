@@ -8,6 +8,7 @@ const helpText = `Usage:
   codex-pets add missy@2.0.0 [--force]
   codex-pets add missy@2.1.1 [--force]
   codex-pets add missy@2.1.2 [--force]
+  codex-pets add missy@2.2.0 [--force]
   codex-pets add missy@2.2.1 [--force]
   codex-pets list
 

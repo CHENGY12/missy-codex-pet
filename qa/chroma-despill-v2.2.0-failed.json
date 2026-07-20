@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "input": "./source/v2.2.0-failed-poop-blue.png",
+  "output": "./source/v2.2.0-failed-poop-alpha.png",
+  "chroma_key_sampled": "#0004FC",
+  "algorithm": "imagegen remove_chroma_key auto-border soft-matte despill",
+  "transparent_pixels": 1284940,
+  "partially_transparent_pixels": 15121,
+  "total_pixels": 1572528,
+  "normalized_scale": 0.6666666666666666,
+  "normalized_row": "./source/v2.2.0-failed-poop-row.png",
+  "alpha_preserved": true,
+  "opaque_blue_fringe_pixels_in_final_row": 0
+}

@@ -1,8 +1,16 @@
 # Missy — Codex Pet v2
 
-Missy is a custom animated calico-cat pet for the Codex desktop app. She is based on Missy's white, orange, and black markings, round body, large upright ears, yellow-green eyes, and thick calico tail.
+> **Former bullied stray. Current desktop diva. Zero shame.**
+
+Missy was once a street cat who got pushed away from the best spots. Adoption and a safe home unlocked her loud, theatrical, mischievous confidence. She is now a custom animated calico-cat pet for the Codex desktop app, based on her white, orange, and black markings, round body, large upright ears, yellow-green eyes, and thick calico tail.
 
 ![Missy animation sheet](qa/contact-sheet-extended.png)
+
+### Her most shameless move
+
+![Missy poop-and-peek failed animation](qa/previews/failed.gif)
+
+The preserved v2.2.0 release gives the `failed` state a cute, non-graphic poop-and-peek sequence. The current v2.2.1 release instead keeps the later stable-idle improvement; both versions remain selectable while the fixes are combined in the next release.
 
 ## Download
 
@@ -22,6 +30,9 @@ That command installs the latest version. You can also choose any preserved pet 
 # v2.2.1 — latest; locked idle position, natural blink, broader tail swish
 npx --yes github:CHENGY12/missy-codex-pet add missy@2.2.1
 
+# v2.2.0 — optional cute failed-state poop-and-peek animation
+npx --yes github:CHENGY12/missy-codex-pet add missy@2.2.0
+
 # v2.1.2 — previous Stretch & Meow release
 npx --yes github:CHENGY12/missy-codex-pet add missy@2.1.2
 
@@ -32,11 +43,12 @@ npx --yes github:CHENGY12/missy-codex-pet add missy@2.1.1
 npx --yes github:CHENGY12/missy-codex-pet add missy@2.0.0
 ```
 
-The Original and Stretch & Meow editions use distinct pet IDs and can remain in Codex together. The v2.1.1, v2.1.2, and v2.2.1 Stretch & Meow releases share the `missy` ID, so choosing one replaces the other; `--force` preserves the replaced copy as a backup.
+The Original and newer editions use distinct pet IDs and can remain in Codex together. The v2.1.1, v2.1.2, v2.2.0, and v2.2.1 releases share the `missy` ID, so choosing one replaces the other; `--force` preserves the replaced copy as a backup.
 
 Versioned ZIP downloads:
 
 - [Missy Stretch & Meow v2.2.1](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.2.1/missy-codex-pet-v2.zip)
+- [Missy Poop & Peek v2.2.0](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.2.0/missy-codex-pet-v2.zip)
 - [Missy Stretch & Meow v2.1.2](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.1.2/missy-codex-pet-v2.zip)
 - [Missy Stretch & Meow v2.1.1](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.1.1/missy-codex-pet-v2.zip)
 - [Missy v2.0.0](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.0.0/missy-codex-pet-v2.zip)
@@ -73,6 +85,7 @@ Manual installation is also supported: copy the included `missy` folder to `~/.c
 
 - `idle` keeps Missy's horizontal body anchor, height, and feet baseline fixed across all six frames. The eyelids blink and the tail follows a wider, smoother arc than v2.1.2.
 - `running` is Codex's active-work/loading state. Missy stretches and then visibly meows; the blue-key fringe on her whiskers has been removed.
+- `failed` in the selectable v2.2.0 release is a cute, non-graphic sequence in which Missy glances back, squats, leaves a tiny cartoon poop, and peeks back. Other releases retain their own failed row.
 - `running-right` and `running-left` are drag movement. In v2.1.2, `running-left` is derived frame by frame from the approved right-facing gait, preserving timing while removing the old purple-red whisker tint.
 - The two `look` rows are valid and unchanged from v2.0.0. In the current Codex desktop renderer they respond to the Computer Use cursor event, not ordinary mouse movement, and Codex temporarily disables looking while the pet itself is being dragged. This trigger behavior is controlled by Codex rather than by `pet.json` or the sprite sheet.
 
@@ -88,6 +101,7 @@ The published sprite sheet passed:
 - v2.2.1 validation with the correct `#0000FF` chroma key and pixel comparison confirming that only idle row 0 changed from v2.1.2
 - idle height, feet-baseline drift, and residual horizontal registration reduced to zero; the other ten atlas rows remain byte-for-byte unchanged
 - preview regenerated from the final despilled atlas, with zero blue-dominant visible pixels in every idle frame
+- v2.2.0 validation against v2.1.2 confirming that only failed row 5 changed; all other standard and look rows remain pixel-identical
 
 See [`qa/`](qa/) for the retained reports, contact sheets, direction sheets, frame checks, and animation previews.
 
@@ -112,4 +126,6 @@ Missy 是一个适用于 Codex 桌面应用的自定义三花猫动画宠物。�
 
 可直接下载最新 ZIP，解压后双击 `install.command`，然后在 Codex 的 **Settings > Pets** 中点击 **Refresh** 并选择 **Missy**。也可以手动将 `missy` 文件夹复制到 `~/.codex/pets/missy`。
 
-命令安装默认选择最新的 v2.2.1；也可以使用 `missy@2.2.1`、`missy@2.1.2`、`missy@2.1.1` 或 `missy@2.0.0` 指定版本。v2.2.1 将静止动画的水平位置、身体高度和脚底线锁定，只保留眨眼与幅度更大、更自然的摆尾；预览也改为从最终去蓝边图集生成。其他动作与 v2.1.2 完全一致。原版与 Stretch & Meow 版使用不同名称和目录，可以同时显示在 Codex 中。
+Missy 曾经是一只被别的猫欺负的流浪猫；被领养后，她逐渐变成了张扬、爱演、调皮又自信的桌面女王。
+
+命令安装默认选择最新的 v2.2.1；也可以使用 `missy@2.2.0` 选择可爱、非写实的“蹲下—留下小卡通便便—回头看”失败动作，或使用 `missy@2.1.2`、`missy@2.1.1`、`missy@2.0.0` 指定更早版本。v2.2.1 将静止动画的水平位置、身体高度和脚底线锁定，只保留眨眼与幅度更大、更自然的摆尾。原版与新版使用不同名称和目录，可以同时显示在 Codex 中。

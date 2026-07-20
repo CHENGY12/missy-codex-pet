@@ -1,0 +1,7 @@
+{
+  "id": "missy",
+  "displayName": "Missy Poop & Peek (v2.2.0)",
+  "description": "Missy v2.2.0 adds a cute, non-graphic poop-and-peek sequence when a task fails, while preserving the v2.1.2 stretch-and-meow and left-running whisker fixes plus every other action.",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}

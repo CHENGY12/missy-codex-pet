@@ -27,6 +27,24 @@
     {"row": 9, "directions": ["000", "022.5", "045", "067.5", "090", "112.5", "135", "157.5"]},
     {"row": 10, "directions": ["180", "202.5", "225", "247.5", "270", "292.5", "315", "337.5"]}
   ],
+  "latestEdition": {
+    "version": "2.2.0",
+    "baseVersion": "2.1.2",
+    "changedRow": 5,
+    "state": "failed",
+    "action": "poop-and-peek",
+    "sequence": [
+      "notice and glance back",
+      "turn with tail raised",
+      "lower into a squat",
+      "strain with eyes closed",
+      "leave a tiny cartoon poop",
+      "relax",
+      "step forward and look back",
+      "stand with an embarrassed glance"
+    ],
+    "content": "cute and non-graphic; no anatomical detail or body fluids"
+  },
   "chromaKey": "#0000FF",
   "generation": "Built with the Codex hatch-pet and imagegen workflows without an API key.",
   "privacy": "Original reference photographs are not included in the public repository."

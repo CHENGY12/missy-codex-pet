@@ -68,11 +68,25 @@ test("keeps the previous Missy v2.1.2 package available", async () => {
   assert.equal(result.changed, true);
 });
 
+test("keeps the Missy v2.2.0 poop-and-peek package available", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "missy-v2-2-0-"));
+  const result = await addPet({
+    petId: "missy",
+    version: "2.2.0",
+    codexDirectory: root
+  });
+
+  assert.equal(result.version, "2.2.0");
+  assert.equal(result.id, "missy");
+  assert.equal(result.displayName, "Missy Poop & Peek (v2.2.0)");
+  assert.equal(result.changed, true);
+});
+
 test("rejects unknown Missy versions with the available choices", async () => {
   const root = await mkdtemp(path.join(tmpdir(), "missy-version-missing-"));
   await assert.rejects(
     () => addPet({ petId: "missy", version: "9.9.9", codexDirectory: root }),
-    /available versions: 2\.0\.0, 2\.1\.1, 2\.1\.2, 2\.2\.1/
+    /available versions: 2\.0\.0, 2\.1\.1, 2\.1\.2, 2\.2\.0, 2\.2\.1/
   );
 });
 
