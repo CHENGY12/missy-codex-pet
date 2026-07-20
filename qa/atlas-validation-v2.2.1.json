@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "file": "./missy/spritesheet.webp",
+  "file": "/Users/guangyichen/Documents/survey/missy-idle-repair-v2.2.0/final/spritesheet-v2.2.1-final.webp",
   "format": "WEBP",
   "mode": "RGBA",
   "columns": 8,
@@ -377,7 +377,7 @@
       "row": 5,
       "column": 0,
       "used": true,
-      "nontransparent_pixels": 20951,
+      "nontransparent_pixels": 20289,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -386,7 +386,7 @@
       "row": 5,
       "column": 1,
       "used": true,
-      "nontransparent_pixels": 17571,
+      "nontransparent_pixels": 24347,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -395,7 +395,7 @@
       "row": 5,
       "column": 2,
       "used": true,
-      "nontransparent_pixels": 15926,
+      "nontransparent_pixels": 20920,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -404,7 +404,7 @@
       "row": 5,
       "column": 3,
       "used": true,
-      "nontransparent_pixels": 15182,
+      "nontransparent_pixels": 16443,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -413,7 +413,7 @@
       "row": 5,
       "column": 4,
       "used": true,
-      "nontransparent_pixels": 16024,
+      "nontransparent_pixels": 16954,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -422,7 +422,7 @@
       "row": 5,
       "column": 5,
       "used": true,
-      "nontransparent_pixels": 16796,
+      "nontransparent_pixels": 16628,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -431,7 +431,7 @@
       "row": 5,
       "column": 6,
       "used": true,
-      "nontransparent_pixels": 16146,
+      "nontransparent_pixels": 17825,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },
@@ -440,7 +440,7 @@
       "row": 5,
       "column": 7,
       "used": true,
-      "nontransparent_pixels": 17798,
+      "nontransparent_pixels": 20554,
       "opaque_chroma_key_pixels": 0,
       "chroma_fringe_pixels": 0
     },

@@ -21,8 +21,8 @@ test("installs the bundled v2 Missy package", async () => {
   assert.equal(manifest.id, "missy");
   assert.equal(manifest.spriteVersionNumber, 2);
   assert.ok((await readFile(path.join(result.installPath, "spritesheet.webp"))).length > 2_000_000);
-  assert.equal(result.version, "2.2.0");
-  assert.equal(result.displayName, "Missy Poop & Peek (v2.2.0)");
+  assert.equal(result.version, "2.2.1");
+  assert.equal(result.displayName, "Missy Stretch & Meow (v2.2.1)");
 });
 
 test("installs the preserved Missy v2.0.0 package on request", async () => {
@@ -54,7 +54,7 @@ test("keeps the previous Missy v2.1.1 package available", async () => {
   assert.equal(result.changed, true);
 });
 
-test("keeps the repaired Missy v2.1.2 package available", async () => {
+test("keeps the previous Missy v2.1.2 package available", async () => {
   const root = await mkdtemp(path.join(tmpdir(), "missy-v2-1-2-"));
   const result = await addPet({
     petId: "missy",
@@ -68,24 +68,38 @@ test("keeps the repaired Missy v2.1.2 package available", async () => {
   assert.equal(result.changed, true);
 });
 
+test("keeps the Missy v2.2.0 poop-and-peek package available", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "missy-v2-2-0-"));
+  const result = await addPet({
+    petId: "missy",
+    version: "2.2.0",
+    codexDirectory: root
+  });
+
+  assert.equal(result.version, "2.2.0");
+  assert.equal(result.id, "missy");
+  assert.equal(result.displayName, "Missy Poop & Peek (v2.2.0)");
+  assert.equal(result.changed, true);
+});
+
 test("rejects unknown Missy versions with the available choices", async () => {
   const root = await mkdtemp(path.join(tmpdir(), "missy-version-missing-"));
   await assert.rejects(
     () => addPet({ petId: "missy", version: "9.9.9", codexDirectory: root }),
-    /available versions: 2\.0\.0, 2\.1\.1, 2\.1\.2, 2\.2\.0/
+    /available versions: 2\.0\.0, 2\.1\.1, 2\.1\.2, 2\.2\.0, 2\.2\.1/
   );
 });
 
 test("installs the original and latest editions side by side", async () => {
   const root = await mkdtemp(path.join(tmpdir(), "missy-side-by-side-"));
   const original = await addPet({ petId: "missy", version: "2.0.0", codexDirectory: root });
-  const latest = await addPet({ petId: "missy", codexDirectory: root });
+  const latest = await addPet({ petId: "missy", version: "2.2.1", codexDirectory: root });
 
   assert.notEqual(original.installPath, latest.installPath);
   const originalManifest = JSON.parse(await readFile(path.join(original.installPath, "pet.json"), "utf8"));
   const latestManifest = JSON.parse(await readFile(path.join(latest.installPath, "pet.json"), "utf8"));
   assert.equal(originalManifest.displayName, "Missy Original (v2.0.0)");
-  assert.equal(latestManifest.displayName, "Missy Poop & Peek (v2.2.0)");
+  assert.equal(latestManifest.displayName, "Missy Stretch & Meow (v2.2.1)");
 });
 
 test("treats the exact published package as already installed", async () => {

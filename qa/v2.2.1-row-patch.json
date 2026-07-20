@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "base_atlas": "/Users/guangyichen/Documents/survey/missy-codex-pet/versions/2.1.2/missy/spritesheet.webp",
+  "replacement_row": "/Users/guangyichen/Documents/survey/missy-idle-repair-v2.2.0/final/idle-row-stabilized-v2.2.1.png",
+  "output": "/Users/guangyichen/Documents/survey/missy-idle-repair-v2.2.0/final/spritesheet-v2.2.1-final.webp",
+  "row_index": 0,
+  "changed_rows": [
+    0
+  ],
+  "unchanged_rows": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "other_rows_unchanged": true,
+  "decoded_webp_matches_expected": true,
+  "output_sha256": "96b46f6cedba898630e0900e0c7f34f2a9c2caaef75ad087fd14912cc3c4b342"
+}

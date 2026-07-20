@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "version": "2.2.1",
+  "comparison_base": "2.1.2",
+  "frames": 6,
+  "before": {
+    "height_range_pixels": 7,
+    "feet_baseline_range_pixels": 4,
+    "visible_area_spread_percent": 8.69,
+    "upper_tail_horizontal_centroid_range_pixels": 0.88,
+    "upper_tail_vertical_centroid_range_pixels": 7.02
+  },
+  "after": {
+    "height_range_pixels": 0,
+    "feet_baseline_range_pixels": 0,
+    "residual_horizontal_registration_pixels": 0,
+    "visible_area_spread_percent": 2.02,
+    "upper_tail_horizontal_centroid_range_pixels": 2.43,
+    "upper_tail_vertical_centroid_range_pixels": 7.45
+  },
+  "visual_review": {
+    "body_scale_and_registration": "pass",
+    "blink": "pass",
+    "tail_motion": "pass",
+    "loop_closure": "pass",
+    "clipping": "pass"
+  },
+  "horizontal_registration": {
+    "unregistered_relative_shift_range_pixels": 9,
+    "relative_shifts_before_correction": [0, -2, 4, 7, 7, -2],
+    "residual_shifts_after_correction": [0, 0, 0, 0, 0, 0],
+    "method": "integer-only rigid translation with no resampling"
+  },
+  "preview_fringe": {
+    "blue_dominant_visible_pixels_per_frame": [0, 0, 0, 0, 0, 0]
+  },
+  "note": "All six idle frames share an identical 177-pixel overall height and y=191 feet baseline. Horizontal registration is locked, and the final-atlas preview has no blue fringe."
+}
