@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "input": "private build artifact: running-left-v2-pre-despill.png",
+  "output": "./source/v2.3.1-running-left-row.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "strength": 1.0,
+  "edge_radius": 2,
+  "spill_tolerance": 0.04,
+  "minimum_saturation": 0.15,
+  "changed_pixels": 15638,
+  "decontaminated_pixels": 13527,
+  "spill_suppressed_pixels": 15638,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c7": 2303,
+    "r0c6": 2117,
+    "r0c1": 2006,
+    "r0c2": 1986,
+    "r0c3": 1886,
+    "r0c0": 1849,
+    "r0c5": 1799,
+    "r0c4": 1692
+  },
+  "alpha_preserved": true
+}

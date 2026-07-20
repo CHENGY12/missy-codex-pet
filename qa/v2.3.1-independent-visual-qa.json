@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "version": "2.3.1",
+  "reviewer": "independent visual QA worker",
+  "artifacts": [
+    "./qa/v2.3.1-running-left-focused.png",
+    "./qa/contact-sheet-extended.png",
+    "./qa/previews/running-left.gif"
+  ],
+  "checks": {
+    "unambiguousScreenLeftProfile": true,
+    "paleFrontEarAtScreenLeft": true,
+    "darkRearEarAtScreenRight": true,
+    "singleDominantVisibleEye": true,
+    "stableAsymmetricMarkings": true,
+    "alternatingRunCadence": true,
+    "safeBounds": true,
+    "purpleBlueRedMuzzleFringeAbsent": true,
+    "fullAtlasCoherent": true
+  },
+  "verdict": "PASS",
+  "reason": "All eight rebuilt running-left frames read unambiguously as left-facing running poses; the prior purple/blue-red muzzle fringe is gone, identity markings remain stable, and the full contact sheet remains coherent."
+}

@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "version": "2.3.1",
+  "runningLeft": {
+    "direction": "screen-left",
+    "frameCount": 8,
+    "mirrorDerived": false,
+    "profile": "true side profile with one dominant eye; never front-facing",
+    "frontEarAtScreenLeft": "pale pink/white with black-orange base",
+    "rearEarAtScreenRight": "dark black",
+    "identityLock": "ear colors, eye patch, crown, flank spot, and tail bands stay fixed"
+  },
+  "failed": {
+    "action": "cute non-graphic poop-and-peek",
+    "sourceVersion": "2.2.0",
+    "frameCount": 8
+  },
+  "contactSheet": "./qa/contact-sheet-extended.png",
+  "independentVisualQa": {
+    "ok": true,
+    "report": "./qa/v2.3.1-independent-visual-qa.json"
+  }
+}

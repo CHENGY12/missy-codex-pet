@@ -251,7 +251,7 @@
       "state": "running-left",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "atlas-cells",
       "ok": true,
       "errors": [],
       "warnings": [],
@@ -261,120 +261,120 @@
           "file": "./frames/running-left/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11453,
+          "nontransparent_pixels": 12857,
           "bbox": [
             5,
-            46,
+            37,
             187,
-            161
+            171
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 291
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
           "file": "./frames/running-left/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13105,
+          "nontransparent_pixels": 15569,
           "bbox": [
             5,
-            32,
+            24,
             187,
-            175
+            184
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 385
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
           "file": "./frames/running-left/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12304,
+          "nontransparent_pixels": 15736,
           "bbox": [
             5,
-            35,
+            18,
             187,
-            172
+            189
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 327
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
           "file": "./frames/running-left/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 10449,
+          "nontransparent_pixels": 12648,
           "bbox": [
             5,
-            47,
+            35,
             187,
-            161
+            173
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 251
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 4,
           "file": "./frames/running-left/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 10458,
+          "nontransparent_pixels": 11733,
           "bbox": [
             5,
-            44,
+            40,
             187,
-            164
+            167
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 286
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 5,
           "file": "./frames/running-left/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13012,
+          "nontransparent_pixels": 15193,
           "bbox": [
             5,
-            36,
+            22,
             187,
-            172
+            186
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 377
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 6,
           "file": "./frames/running-left/06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12802,
+          "nontransparent_pixels": 17150,
           "bbox": [
             5,
-            31,
+            18,
             187,
-            176
+            190
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 391
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 7,
           "file": "./frames/running-left/07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 13245,
+          "nontransparent_pixels": 19213,
           "bbox": [
             5,
-            32,
+            12,
             187,
-            176
+            196
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 376
+          "chroma_adjacent_pixels": 0
         }
       ]
     },
@@ -539,7 +539,7 @@
       "state": "failed",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "components",
+      "extraction_method": "atlas-cells",
       "ok": true,
       "errors": [],
       "warnings": [],

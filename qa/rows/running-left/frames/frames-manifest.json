@@ -22,7 +22,7 @@
         "./qa/rows/running-left/frames/running-left/06.png",
         "./qa/rows/running-left/frames/running-left/07.png"
       ],
-      "method": "components"
+      "method": "atlas-cells"
     }
   ]
 }

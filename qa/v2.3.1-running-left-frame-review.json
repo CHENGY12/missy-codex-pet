@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "frames_root": "./qa/rows/running-left/frames",
+  "frames_root": "./source/v2.3.1-running-left-frames",
   "states": [
     "running-left"
   ],
@@ -11,17 +11,17 @@
       "state": "running-left",
       "expected_frames": 8,
       "actual_frames": 8,
-      "extraction_method": "atlas-cells",
+      "extraction_method": "components",
       "ok": true,
       "errors": [],
       "warnings": [],
       "frames": [
         {
           "index": 0,
-          "file": "./qa/rows/running-left/frames/running-left/00.png",
+          "file": "./source/v2.3.1-running-left-frames/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12857,
+          "nontransparent_pixels": 12073,
           "bbox": [
             5,
             37,
@@ -33,10 +33,10 @@
         },
         {
           "index": 1,
-          "file": "./qa/rows/running-left/frames/running-left/01.png",
+          "file": "./source/v2.3.1-running-left-frames/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15569,
+          "nontransparent_pixels": 14740,
           "bbox": [
             5,
             24,
@@ -48,10 +48,10 @@
         },
         {
           "index": 2,
-          "file": "./qa/rows/running-left/frames/running-left/02.png",
+          "file": "./source/v2.3.1-running-left-frames/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15736,
+          "nontransparent_pixels": 14933,
           "bbox": [
             5,
             18,
@@ -63,10 +63,10 @@
         },
         {
           "index": 3,
-          "file": "./qa/rows/running-left/frames/running-left/03.png",
+          "file": "./source/v2.3.1-running-left-frames/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 12648,
+          "nontransparent_pixels": 11868,
           "bbox": [
             5,
             35,
@@ -78,10 +78,10 @@
         },
         {
           "index": 4,
-          "file": "./qa/rows/running-left/frames/running-left/04.png",
+          "file": "./source/v2.3.1-running-left-frames/04.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 11733,
+          "nontransparent_pixels": 10998,
           "bbox": [
             5,
             40,
@@ -93,10 +93,10 @@
         },
         {
           "index": 5,
-          "file": "./qa/rows/running-left/frames/running-left/05.png",
+          "file": "./source/v2.3.1-running-left-frames/05.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 15193,
+          "nontransparent_pixels": 14490,
           "bbox": [
             5,
             22,
@@ -108,10 +108,10 @@
         },
         {
           "index": 6,
-          "file": "./qa/rows/running-left/frames/running-left/06.png",
+          "file": "./source/v2.3.1-running-left-frames/06.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17150,
+          "nontransparent_pixels": 16314,
           "bbox": [
             5,
             18,
@@ -123,10 +123,10 @@
         },
         {
           "index": 7,
-          "file": "./qa/rows/running-left/frames/running-left/07.png",
+          "file": "./source/v2.3.1-running-left-frames/07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 19213,
+          "nontransparent_pixels": 18339,
           "bbox": [
             5,
             12,
