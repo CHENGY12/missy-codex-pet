@@ -22,7 +22,7 @@
         "./qa/rows/failed/frames/failed/06.png",
         "./qa/rows/failed/frames/failed/07.png"
       ],
-      "method": "components"
+      "method": "atlas-cells"
     }
   ]
 }
