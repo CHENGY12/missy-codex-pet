@@ -10,13 +10,13 @@ Missy was once a street cat who got pushed away from the best spots. Adoption an
 
 ![Missy poop-and-peek failed animation](qa/previews/failed.gif)
 
-The current v2.3.1 release combines the cute, non-graphic poop-and-peek `failed` sequence with the stable idle, stretch-and-meow work action, and a newly drawn true-profile left-running gait. Earlier releases remain selectable.
+Missy is a lovable little calico cat who keeps you company and playfully interacts with you while you work.
 
 ## Download
 
 [Download the latest Missy installer](https://github.com/CHENGY12/missy-codex-pet/releases/latest/download/missy-codex-pet-v2.zip)
 
-[Install Missy Poop, Peek & Run directly in Codex](codex://pets/install?name=Missy%20Poop%2C%20Peek%20%26%20Run%20(v2.3.1)&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCHENGY12%2Fmissy-codex-pet%2Fmain%2Fmissy%2Fspritesheet.webp&description=Missy%20the%20calico%20cat%20with%20stable%20idle%2C%20poop-and-peek%2C%20stretch-and-meow%2C%20and%20a%20true-profile%20left%20run&spriteVersionNumber=2)
+[Install Missy (v2.3.1) directly in Codex](codex://pets/install?name=Missy%20(v2.3.1)&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCHENGY12%2Fmissy-codex-pet%2Fmain%2Fmissy%2Fspritesheet.webp&description=Missy%20is%20a%20lovable%20little%20calico%20cat%20who%20keeps%20you%20company%20and%20playfully%20interacts%20with%20you%20while%20you%20work.&spriteVersionNumber=2)
 
 Install from this GitHub repository with `npx`:
 
@@ -50,7 +50,7 @@ The Original and newer editions use distinct pet IDs and can remain in Codex tog
 
 Versioned ZIP downloads:
 
-- [Missy Poop, Peek & Run v2.3.1](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.3.1/missy-codex-pet-v2.zip)
+- [Missy v2.3.1](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.3.1/missy-codex-pet-v2.zip)
 - [Missy Stretch & Meow v2.2.1](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.2.1/missy-codex-pet-v2.zip)
 - [Missy Poop & Peek v2.2.0](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.2.0/missy-codex-pet-v2.zip)
 - [Missy Stretch & Meow v2.1.2](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.1.2/missy-codex-pet-v2.zip)

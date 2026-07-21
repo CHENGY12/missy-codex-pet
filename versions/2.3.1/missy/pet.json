@@ -1,7 +1,7 @@
 {
   "id": "missy",
-  "displayName": "Missy Poop, Peek & Run (v2.3.1)",
-  "description": "Missy v2.3.1 combines the stable idle and stretch-and-meow actions with the cute poop-and-peek failed state, and repairs running-left with a true left-facing profile and stable asymmetric face and ear markings.",
+  "displayName": "Missy (v2.3.1)",
+  "description": "Missy is a lovable little calico cat who keeps you company and playfully interacts with you while you work.",
   "spriteVersionNumber": 2,
   "spritesheetPath": "spritesheet.webp"
 }
