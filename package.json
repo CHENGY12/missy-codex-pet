@@ -1,6 +1,6 @@
 {
   "name": "@chengy12/codex-pets",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "Install Missy, a Codex v2 animated calico-cat pet.",
   "type": "module",
   "bin": {

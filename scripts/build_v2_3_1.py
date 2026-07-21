@@ -103,12 +103,8 @@ def build_atlas(left_row: Image.Image) -> tuple[Image.Image, list[int]]:
 def write_manifest() -> None:
     manifest = {
         "id": "missy",
-        "displayName": "Missy Poop, Peek & Run (v2.3.1)",
-        "description": (
-            "Missy v2.3.1 combines the stable idle and stretch-and-meow actions with "
-            "the cute poop-and-peek failed state, and repairs running-left with "
-            "a true left-facing profile and stable asymmetric face and ear markings."
-        ),
+        "displayName": "Missy (v2.3.1)",
+        "description": "Missy is a lovable little calico cat who keeps you company and playfully interacts with you while you work.",
         "spriteVersionNumber": 2,
         "spritesheetPath": "spritesheet.webp",
     }
@@ -290,11 +286,11 @@ fi
 mkdir -p "${pet_target}"
 cp "${pet_source}/pet.json" "${pet_target}/pet.json"
 cp "${pet_source}/spritesheet.webp" "${pet_target}/spritesheet.webp"
-print "Missy Poop, Peek & Run (v2.3.1) was installed at ${pet_target}."
+print "Missy (v2.3.1) was installed at ${pet_target}."
 """
-    readme = """# Missy Poop, Peek & Run — v2.3.1
+    readme = """# Missy (v2.3.1)
 
-This release combines Missy's stable idle, stretch-and-meow work animation, cute non-graphic poop-and-peek failure, correct native left-running ear markings, and 16 look directions.
+Missy is a lovable little calico cat who keeps you company and playfully interacts with you while you work.
 
 Run `npx --yes github:CHENGY12/missy-codex-pet add missy@2.3.1 --force` to preserve an existing Missy as a backup and install this version.
 

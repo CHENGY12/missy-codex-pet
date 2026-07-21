@@ -58,7 +58,7 @@ const missyVersions = Object.freeze({
   }),
   "2.3.1": Object.freeze({
     installId: "missy",
-    displayName: "Missy Poop, Peek & Run (v2.3.1)",
+    displayName: "Missy (v2.3.1)",
     manifestPath: fileURLToPath(
       new URL("../versions/2.3.1/missy/pet.json", import.meta.url)
     ),

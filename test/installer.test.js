@@ -22,7 +22,11 @@ test("installs the bundled v2 Missy package", async () => {
   assert.equal(manifest.spriteVersionNumber, 2);
   assert.ok((await readFile(path.join(result.installPath, "spritesheet.webp"))).length > 2_000_000);
   assert.equal(result.version, "2.3.1");
-  assert.equal(result.displayName, "Missy Poop, Peek & Run (v2.3.1)");
+  assert.equal(result.displayName, "Missy (v2.3.1)");
+  assert.equal(
+    manifest.description,
+    "Missy is a lovable little calico cat who keeps you company and playfully interacts with you while you work."
+  );
 });
 
 test("installs the preserved Missy v2.0.0 package on request", async () => {
@@ -113,7 +117,7 @@ test("installs the original and latest editions side by side", async () => {
   const originalManifest = JSON.parse(await readFile(path.join(original.installPath, "pet.json"), "utf8"));
   const latestManifest = JSON.parse(await readFile(path.join(latest.installPath, "pet.json"), "utf8"));
   assert.equal(originalManifest.displayName, "Missy Original (v2.0.0)");
-  assert.equal(latestManifest.displayName, "Missy Poop, Peek & Run (v2.3.1)");
+  assert.equal(latestManifest.displayName, "Missy (v2.3.1)");
 });
 
 test("treats the exact published package as already installed", async () => {
