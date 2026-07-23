@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "version": "2.3.2",
+  "waving": {
+    "action": "natural seated grooming",
+    "sequence": [
+      "raise paw",
+      "lick paw",
+      "wash cheek and ear",
+      "return to seated pose"
+    ],
+    "frameCount": 4,
+    "identityStable": true,
+    "motionReadsNaturally": true
+  },
+  "failed": {
+    "action": "cute non-graphic poop-and-peek",
+    "frameCount": 8,
+    "detachedLeftEdgeBlocksRemoved": true,
+    "actionOtherwiseUnchanged": true
+  },
+  "otherRows": "pixel-identical to v2.3.1",
+  "contactSheet": "./qa/contact-sheet-extended.png",
+  "beforeAfter": {
+    "waving": "./qa/v2.3.2-waving-before-after.png",
+    "failed": "./qa/v2.3.2-failed-before-after.png"
+  },
+  "previews": {
+    "waving": "./qa/previews/waving.gif",
+    "failed": "./qa/previews/failed.gif"
+  }
+}

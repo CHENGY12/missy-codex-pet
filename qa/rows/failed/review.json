@@ -36,9 +36,9 @@
           "file": "./qa/rows/failed/frames/failed/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17571,
+          "nontransparent_pixels": 17462,
           "bbox": [
-            5,
+            33,
             19,
             186,
             203
@@ -126,9 +126,9 @@
           "file": "./qa/rows/failed/frames/failed/07.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17798,
+          "nontransparent_pixels": 17640,
           "bbox": [
-            11,
+            31,
             5,
             180,
             203

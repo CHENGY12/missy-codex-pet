@@ -66,6 +66,17 @@ const missyVersions = Object.freeze({
       new URL("../versions/2.3.1/missy/spritesheet.webp", import.meta.url)
     ),
     spritesheetSha256: "7a3dbd8900a9db7a322d1d07cb33e38faa457a9e0b3418f6487c8e2d36f2df3a"
+  }),
+  "2.3.2": Object.freeze({
+    installId: "missy",
+    displayName: "Missy (v2.3.2)",
+    manifestPath: fileURLToPath(
+      new URL("../versions/2.3.2/missy/pet.json", import.meta.url)
+    ),
+    spritesheetPath: fileURLToPath(
+      new URL("../versions/2.3.2/missy/spritesheet.webp", import.meta.url)
+    ),
+    spritesheetSha256: "768ad1f6862abbb046ec79350d2e05e354d69a837521e645714a78dcb26cce43"
   })
 });
 
@@ -73,7 +84,7 @@ export const pets = Object.freeze({
   missy: Object.freeze({
     id: "missy",
     displayName: "Missy",
-    latestVersion: "2.3.1",
+    latestVersion: "2.3.2",
     versions: missyVersions
   })
 });
