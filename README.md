@@ -16,7 +16,7 @@ Missy is a lovable little calico cat who keeps you company and playfully interac
 
 [Download the latest Missy installer](https://github.com/CHENGY12/missy-codex-pet/releases/latest/download/missy-codex-pet-v2.zip)
 
-[Install Missy (v2.3.1) directly in Codex](codex://pets/install?name=Missy%20(v2.3.1)&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCHENGY12%2Fmissy-codex-pet%2Fmain%2Fmissy%2Fspritesheet.webp&description=Missy%20is%20a%20lovable%20little%20calico%20cat%20who%20keeps%20you%20company%20and%20playfully%20interacts%20with%20you%20while%20you%20work.&spriteVersionNumber=2)
+[Install Missy (v2.3.2) directly in Codex](codex://pets/install?name=Missy%20(v2.3.2)&imageUrl=https%3A%2F%2Fraw.githubusercontent.com%2FCHENGY12%2Fmissy-codex-pet%2Fmain%2Fmissy%2Fspritesheet.webp&description=Missy%20is%20a%20lovable%20little%20calico%20cat%20who%20keeps%20you%20company%20and%20playfully%20interacts%20with%20you%20while%20you%20work.&spriteVersionNumber=2)
 
 Install from this GitHub repository with `npx`:
 
@@ -27,7 +27,10 @@ npx --yes github:CHENGY12/missy-codex-pet add missy
 That command installs the latest version. You can also choose any preserved pet version explicitly:
 
 ```sh
-# v2.3.1 — latest; stable idle + poop-and-peek + corrected true-profile left run
+# v2.3.2 — latest; natural grooming + clean poop-and-peek edges
+npx --yes github:CHENGY12/missy-codex-pet add missy@2.3.2
+
+# v2.3.1 — previous release with corrected true-profile left run
 npx --yes github:CHENGY12/missy-codex-pet add missy@2.3.1
 
 # v2.2.1 — locked idle position, natural blink, broader tail swish
@@ -46,10 +49,11 @@ npx --yes github:CHENGY12/missy-codex-pet add missy@2.1.1
 npx --yes github:CHENGY12/missy-codex-pet add missy@2.0.0
 ```
 
-The Original and newer editions use distinct pet IDs and can remain in Codex together. The v2.1.1 through v2.3.1 releases share the `missy` ID, so choosing one replaces the other; `--force` preserves the replaced copy as a backup.
+The Original and newer editions use distinct pet IDs and can remain in Codex together. The v2.1.1 through v2.3.2 releases share the `missy` ID, so choosing one replaces the other; `--force` preserves the replaced copy as a backup.
 
 Versioned ZIP downloads:
 
+- [Missy v2.3.2](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.3.2/missy-codex-pet-v2.zip)
 - [Missy v2.3.1](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.3.1/missy-codex-pet-v2.zip)
 - [Missy Stretch & Meow v2.2.1](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.2.1/missy-codex-pet-v2.zip)
 - [Missy Poop & Peek v2.2.0](https://github.com/CHENGY12/missy-codex-pet/releases/download/v2.2.0/missy-codex-pet-v2.zip)
@@ -88,8 +92,9 @@ Manual installation is also supported: copy the included `missy` folder to `~/.c
 ## Animation triggers
 
 - `idle` keeps Missy's horizontal body anchor, height, and feet baseline fixed across all six frames. The eyelids blink and the tail follows a wider, smoother arc than v2.1.2.
+- `waving` in v2.3.2 is a natural seated grooming loop: Missy raises a forepaw, licks it, washes her cheek and ear, then settles back into her seated pose.
 - `running` is Codex's active-work/loading state. Missy stretches and then visibly meows; the blue-key fringe on her whiskers has been removed.
-- `failed` in v2.3.1 and the selectable v2.2.0 release is a cute, non-graphic sequence in which Missy glances back, squats, leaves a tiny cartoon poop, and peeks back.
+- `failed` in v2.3.2 keeps the cute, non-graphic poop-and-peek sequence while removing detached black source-edge fragments from frames 1 and 7.
 - `running-right` and `running-left` are drag movement. In v2.3.1, `running-left` is a newly drawn, non-mirrored eight-frame side-profile gait with its nose traveling screen-left, one dominant visible eye, and Missy's asymmetric ear and face markings locked across the loop.
 - The two `look` rows are valid and unchanged from v2.0.0. In the current Codex desktop renderer they respond to the Computer Use cursor event, not ordinary mouse movement, and Codex temporarily disables looking while the pet itself is being dragged. This trigger behavior is controlled by Codex rather than by `pet.json` or the sprite sheet.
 
@@ -109,6 +114,9 @@ The published sprite sheet passed:
 - v2.3.1 strict atlas validation with zero transparent RGB residue and no validator warnings
 - pixel comparison against v2.2.1 confirming that only running-left row 2 and failed row 5 changed; row 5 exactly matches the approved v2.2.0 poop-and-peek row, and all other rows remain pixel-identical
 - independent visual review of the true left-facing profile, fixed ear order, single dominant eye, coherent eight-frame cadence, and clean neutral muzzle edges
+- v2.3.2 strict v2 atlas validation with zero transparent RGB residue, zero warnings, and no chroma-key leakage
+- pixel comparison against v2.3.1 confirming that only waving row 3 and failed row 5 changed; rows 0, 1, 2, 4, and 6–10 remain pixel-identical
+- failed-row repair verification confirming that only the left 24-pixel repair region in frames 1 and 7 changed, while the poop-and-peek action remains otherwise pixel-identical
 
 See [`qa/`](qa/) for the retained reports, contact sheets, direction sheets, frame checks, and animation previews.
 
@@ -116,7 +124,7 @@ See [`qa/`](qa/) for the retained reports, contact sheets, direction sheets, fra
 
 ```text
 missy/     Install-ready pet.json and spritesheet.webp
-versions/  Preserved install-ready v2.0.0 through v2.3.1 packages
+versions/  Preserved install-ready v2.0.0 through v2.3.2 packages
 bin/       npx command entry point
 src/       Safe, atomic installer and bundled pet catalog
 test/      Node.js installer and CLI tests
@@ -135,4 +143,4 @@ Missy 是一个适用于 Codex 桌面应用的自定义三花猫动画宠物。�
 
 Missy 曾经是一只被别的猫欺负的流浪猫；被领养后，她逐渐变成了张扬、爱演、调皮又自信的桌面女王。
 
-命令安装默认选择最新的 v2.3.1：它合并了稳定静止、伸懒腰并叫、可爱非写实的拉屎回看动作，并重画了真正朝左侧面的 8 帧跑动，耳朵与脸部花纹不会在帧间互换。也可以使用 `missy@2.2.1`、`missy@2.2.0`、`missy@2.1.2`、`missy@2.1.1` 或 `missy@2.0.0` 安装历史版本。原版与新版使用不同名称和目录，可以同时显示在 Codex 中。
+命令安装默认选择最新的 v2.3.2：`waving` 现在是自然的“抬爪—舔爪—擦脸和耳朵—恢复坐姿”理毛动作；`failed` 保留可爱非写实的拉屎回看动作，并移除了第 1、7 帧左侧的孤立黑色色块。其他动作与 v2.3.1 逐像素一致。也可以使用 `missy@2.3.1`、`missy@2.2.1`、`missy@2.2.0`、`missy@2.1.2`、`missy@2.1.1` 或 `missy@2.0.0` 安装历史版本。原版与新版使用不同名称和目录，可以同时显示在 Codex 中。

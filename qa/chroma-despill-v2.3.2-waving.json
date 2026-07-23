@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "input": "./work/missy-v2.3.2-natural-grooming/final/waving-row-raw.png",
+  "output": "./source/v2.3.2-waving-grooming-row.png",
+  "chroma_key": "#0000FF",
+  "algorithm": "edge-local-chroma-spill-suppression",
+  "scope": "new waving row only; all inherited v2.3.1 rows were already cleaned and remain pixel-identical",
+  "strength": 1,
+  "edge_radius": 5,
+  "spill_tolerance": 0.15,
+  "minimum_saturation": 0.1,
+  "changed_pixels": 7252,
+  "decontaminated_pixels": 6915,
+  "spill_suppressed_pixels": 7252,
+  "rejected_pixels": 0,
+  "changed_by_cell": {
+    "r0c0": 1913,
+    "r0c3": 1873,
+    "r0c2": 1740,
+    "r0c1": 1726
+  },
+  "alpha_preserved": true
+}

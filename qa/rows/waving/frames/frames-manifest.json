@@ -18,7 +18,7 @@
         "./qa/rows/waving/frames/waving/02.png",
         "./qa/rows/waving/frames/waving/03.png"
       ],
-      "method": "components"
+      "method": "atlas-cells"
     }
   ]
 }

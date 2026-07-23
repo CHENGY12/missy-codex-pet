@@ -1,0 +1,58 @@
+{
+  "ok": true,
+  "version": "2.3.2",
+  "baseVersion": "2.3.1",
+  "baseAtlas": "./versions/2.3.1/missy/spritesheet.webp",
+  "changedRows": [
+    3,
+    5
+  ],
+  "unchangedRows": [
+    0,
+    1,
+    2,
+    4,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "unchangedRowsPixelIdentical": true,
+  "lookRowsUnchanged": true,
+  "waving": {
+    "action": "seated lick-paw-and-wash-face grooming",
+    "frameCount": 4,
+    "source": "./source/v2.3.2-waving-grooming-row.png",
+    "edgeCleanup": "./qa/chroma-despill-v2.3.2-waving.json"
+  },
+  "failed": {
+    "action": "cute non-graphic poop-and-peek",
+    "frameCount": 8,
+    "ok": true,
+    "repair": "clear detached source-edge fragments in the left 24 pixels of failed frames 1 and 7",
+    "changedPixelsByFrame": {
+      "0": 0,
+      "1": 109,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 158
+    },
+    "expectedChangedPixelsByFrame": {
+      "0": 0,
+      "1": 109,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 158
+    },
+    "changedPixelsOutsideRepairRegion": 0,
+    "poopAndPeekActionOtherwisePixelIdentical": true
+  },
+  "outputSha256": "768ad1f6862abbb046ec79350d2e05e354d69a837521e645714a78dcb26cce43"
+}

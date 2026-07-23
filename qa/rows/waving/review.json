@@ -11,7 +11,7 @@
       "state": "waving",
       "expected_frames": 4,
       "actual_frames": 4,
-      "extraction_method": "components",
+      "extraction_method": "atlas-cells",
       "ok": true,
       "errors": [],
       "warnings": [],
@@ -21,60 +21,60 @@
           "file": "./qa/rows/waving/frames/waving/00.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18230,
+          "nontransparent_pixels": 19242,
           "bbox": [
+            10,
             5,
-            15,
-            187,
-            193
+            181,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 276
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 1,
           "file": "./qa/rows/waving/frames/waving/01.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 17613,
+          "nontransparent_pixels": 19637,
           "bbox": [
+            14,
             5,
-            15,
-            187,
-            193
+            177,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 210
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 2,
           "file": "./qa/rows/waving/frames/waving/02.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18864,
+          "nontransparent_pixels": 19107,
           "bbox": [
+            13,
             5,
-            15,
-            187,
-            192
+            178,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 282
+          "chroma_adjacent_pixels": 0
         },
         {
           "index": 3,
           "file": "./qa/rows/waving/frames/waving/03.png",
           "width": 192,
           "height": 208,
-          "nontransparent_pixels": 18516,
+          "nontransparent_pixels": 19644,
           "bbox": [
+            12,
             5,
-            13,
-            187,
-            194
+            179,
+            203
           ],
           "edge_pixels": 0,
-          "chroma_adjacent_pixels": 242
+          "chroma_adjacent_pixels": 0
         }
       ]
     }
